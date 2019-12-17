@@ -7,7 +7,7 @@ from time import sleep
 
 def main():
     dt_now = datetime.datetime.now()
-    print(dt_now.strftime('%Y/%m/%d %H:%M:%S') + "Angel Hellow")
+    print(dt_now.strftime('%Y/%m/%d %H:%M:%S') + " Hallow War")
     print(os.environ.get('LANG'))
     #print(os.environ.get('RemoteENV'))
 
@@ -15,4 +15,4 @@ def main():
 if __name__ == '__main__':
     while True:
         main()
-        sleep(20)
+        sleep(5)
